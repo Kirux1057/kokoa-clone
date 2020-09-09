@@ -24,55 +24,32 @@
     </div>
 
     <header class="screen_header">
-      <h1 class="screen_header__title">Friends</h1>
+      <h1 class="screen_header__title">Chats</h1>
       <div class="screen_header__icons">
         <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="far fa-comment-dots fa-2x"></i></span>
         <span><i class="fas fa-music fa-2x"></i></span>
         <span><i class="fas fa-cog fa-2x"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display
-      <i class="fas fa-chevron-right fa-sm"></i>
-    </a>
-    <main class="friends-screen">
+    <main class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
-          <img src="2020-04-06.jpg" class="user-component__face user-component__face--xl" />
+          <img
+            src="2020-04-06.jpg"
+            class="user-component__face user-component__face"
+          />
           <div class="user-component__text">
-            <h2 class="user-component__name">ChoMin</h1>
-            <!-- <h6 class="user-component__status">This text whatever</h6> -->
+            <h1 class="user-component__name">ChoMin</h1>
+            <h3 class="user-component__status">
+              Please check My Kokoa Account Info
+            </h3>
           </div>
         </div>
         <div class="user-component__column"></div>
       </div>
-
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-sm"></i>
-        </div>
-      </div>
-
-
-      <div class="user-component">
-        <div class="user-component__column">
-          <img src="Channel.png" class="user-component__face user-component__face--sm"  />
-          <div class="user-component__text">
-            <h2 class="user-component__name user-component__name--not-bold">Kokoa-Channel</h1>
-            <!-- <h6 class="user-component__status">This text whatever</h6> -->
-          </div>
-        </div>
-        <div class="user-component__column">
-          <span>2</span>
-          <i class="fas fa-chevron-right fa-sm"></i>
-        </div>
-      </div>
     </main>
-
-
-
 
     <nav class="nav">
       <ul class="nav__list">
@@ -84,10 +61,13 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification">1</span>
-            <i class="fas fa-comment fa-2x"></i></a>
+            <i class="fas fa-comment fa-2x"></i
+          ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
