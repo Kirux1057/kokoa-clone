@@ -19,10 +19,23 @@
   text-decoration: none;
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-8px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav__notification {
   position: absolute;
   left: 20px;
   bottom: 16px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__notification_2 {
